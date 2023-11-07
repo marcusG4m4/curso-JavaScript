@@ -50,3 +50,18 @@ console.log(30>10);
 
 console.log(typeof true);
 
+// 9 - Comparação
+
+console.log(5 == 5); 
+
+console.log(5 !== 5);
+
+console.log(5 == 5);
+
+console.log(5 == 5);
+
+console.log(5 == 5);
+
+//teste
+
+console.log(typeof 5 * 5)
