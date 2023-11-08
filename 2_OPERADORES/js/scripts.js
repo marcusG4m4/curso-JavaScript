@@ -62,6 +62,13 @@ console.log(5 == 5);
 
 console.log(5 == 5);
 
-//teste
+// 10 - idêntico
 
-console.log(typeof 5 * 5)
+console.log( 5 == "5") 
+
+console.log( 5 === "5")
+
+console.log( 5 != "5")
+
+console.log( 5 !== "5")
+
