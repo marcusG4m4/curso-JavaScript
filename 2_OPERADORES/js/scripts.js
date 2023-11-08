@@ -72,3 +72,19 @@ console.log( 5 != "5")
 
 console.log( 5 !== "5")
 
+// 11 - Operadores Lógicos 
+console.log(true && true)
+
+console.log(true && false)
+
+console.log(5 > 2 && 2 < 10)
+
+console.log(5 > 2 && "Matheus" === 1)
+
+console.log(5 > 2 || "Matheus" === 1)
+
+console.log(5 < 2 || 5 > 100)
+
+console.log(!true)
+
+console.log(!5 > 2)
