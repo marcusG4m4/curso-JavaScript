@@ -99,3 +99,37 @@ console.log(!5 > 2);
  console.log(null == false);
 
  console.log(undefined == false);
+
+ // 13 - Mudanças de tipo
+ console.log(5 * null);
+
+ console.log("teste" * "opa");
+
+ console.log("10" + 1);
+ 
+ console.log("10" - 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
