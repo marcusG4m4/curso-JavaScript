@@ -71,3 +71,60 @@ console.log('teste');
 console.error("erro!");
 
 console.warn("aviso!");
+
+// 7 - if
+const m = 10;
+
+if(m > 5){
+console.log("m é maior que 5!");
+}
+
+const user = "Marcus";
+
+if(user === "Marcus"){
+    console.log("Olá Marcus");
+}
+if(user === "Paula"){
+    console.log("Olá Paula");
+}
+
+console.log(user === "Marcus". user === "Paula");
+
+// 8 - else
+const loggedIn = false;
+
+if(loggedIn) {
+console.log("está autenticado!");
+} else {
+    console.log("nao está autenticado!");
+}
+
+const k = 10
+const w = 25
+
+if(k > 5 && w > 20){
+console.log("Números mais altos!");
+} 
+else{
+console.log("Números mais baixo!");
+}
+
+// 9 - else if
+if (1 > 2) {
+    console.log("Teste");
+} else if (2 > 3) {
+    console.log("Teste 2");
+} else if (5 > 1) {
+    console.log("Agora sim!");
+}
+
+const userName = ("Marcus");
+const userAge = 42;
+
+if (userName === "José"){
+    console.log("Seja bem vindo José!");
+} else if (userName === "Marcus" && userAge === 42){
+    console.log("Bem vindo Marcus sua idade e 42 anos!");
+} else {
+    console.log("nenhuma condição aceita!");
+}
