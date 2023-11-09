@@ -52,5 +52,3 @@ console.log($teste);
 alert("testando")
 
 const z = 110;
-
-alert(`O numero é ${z}`)
