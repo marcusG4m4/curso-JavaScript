@@ -128,3 +128,18 @@ if (userName === "José"){
 } else {
     console.log("nenhuma condição aceita!");
 }
+
+// 10 - loop infinito
+/*let x = 10
+while(x > 5) {
+    console.log(`Imprimindo ${x}` );
+    x = x - 1;
+}*/
+
+ // 11 - do wile
+ let o = 10;
+
+ do{
+    console.log(`valor de o: ${o}`);
+    o--;
+ } while(o > 0);
