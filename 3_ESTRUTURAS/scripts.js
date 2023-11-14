@@ -146,20 +146,21 @@ while(x > 5) {
 
 // 12 - for
 for (let t = 0; t < 10; t++) {
-  console.log("Repetindo algo");
+    console.log("Repetindo algo");
 }
 
 let r = 10;
 
 for (r; r > 0; r = r - 1) {
-  console.log(`O r está diminuindo ${r}`);
+    console.log(`O r está diminuindo ${r}`);
 }
 
 // 13 - identação
-for (let u = 0; u < 10 u++)
-if(u * 2 > 10) {
-console.log(`maior que 10! ${u}`);
-} else { if(u / 2 === 0) {
-console.log("deu 0");
-}
-}
+for (let u = 0; u < 10; u++)
+    if (u * 2 > 10) {
+        console.log(`maior que 10! ${u}`);
+    } else {
+        if (u / 2 === 0) {
+            console.log("deu 0");
+        }
+    }
