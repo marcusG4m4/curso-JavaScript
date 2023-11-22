@@ -130,3 +130,28 @@ console.log(raizQadrada2(5));
 const OláMundo = () => console.log("Olá Mundo");
 
 OláMundo();
+
+// 7 - parametro opcional
+const multiplication = (m, n) => {
+if (n === undefined) {
+    return m * 2
+}
+else{
+ return m * n 
+}}
+console.log(multiplication(5));
+
+console.log(multiplication(2, 4));
+
+const greeting = (name) =>{
+  if (!name) {
+    console.log("Olá");
+    return;
+  }
+  console.log(`Olá ${name}!`);
+}
+
+greeting();
+
+greeting("Marcus");
+
