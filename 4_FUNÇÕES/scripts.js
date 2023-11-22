@@ -203,4 +203,39 @@ const custonGreeting = (name, greet = "Olá") => {
 
  console.log(c2(10));
 
- 
+ // 11 - recursion
+ const untilTem = (n, m) => {
+if (n < 10) {
+  console.log("A função parou de executar!")
+} else {
+  const x = n - m;
+
+  console.log(x);
+
+  untilTem(x, m);
+}
+ }
+
+ untilTem(100, 7);
+
+ //infinit recursion
+ // function run() {
+ //console.log(executando...);
+ // run();
+ //}
+
+ //run();
+
+ function factorial(x) {
+  if(x === 0){
+    return 1;
+  } else {
+    return x * factorial(x - 1); 
+  }
+ }
+
+ const num = 6; 
+
+ const result = factorial(num);
+
+console.log (`o fatorial do número ${num} é ${result}`);
