@@ -58,7 +58,6 @@ console.log(resultado);
 
 console.log(soma(e, g));
 
-
 // 3 - escopo da função
 let y = 10;
 
@@ -72,3 +71,62 @@ testandoEscopo();
 console.log(`Y fora da função é: ${y}`);
 
 testandoEscopo();
+
+// 4 - escopo aninhado
+
+let m = 10;
+
+function escopoAninhado() {
+  let m = 20;
+
+  if (true) {
+    let m = 30;
+    if (true) {
+      let m = 40;
+      console.log(m);
+    }
+    console.log(m);
+  }
+  console.log(m);
+}
+escopoAninhado();
+console.log(m);
+
+// 5 - arrow function
+const testeArrow = () => {
+  console.log("Está é uma Arrow function");
+};
+
+testeArrow();
+
+const parOuIpar = (n) => {
+  if (n % 2 === 0) {
+    console.log("Par");
+    return;
+  }
+  console.log("Impar");
+};
+
+parOuIpar(5);
+
+parOuIpar(10);
+
+// 6 - mais sobre Arrow functions
+const raizQadrada = (x) => {
+  return x * x;
+};
+
+console.log(raizQadrada(4));
+
+console.log(raizQadrada(9));
+
+//mais simplificado
+const raizQadrada2 = (x) => x * x;
+
+console.log(raizQadrada2(7));
+
+console.log(raizQadrada2(5));
+
+const OláMundo = () => console.log("Olá Mundo");
+
+OláMundo();
