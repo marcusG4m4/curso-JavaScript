@@ -1,4 +1,4 @@
-// 1 - Criando uma função
+/*// 1 - Criando uma função
 function minhaFuncao() {
   console.log("Testando");
 }
@@ -40,7 +40,7 @@ const resultado = soma(b, d);
 
 console.log(resultado);
 
-console.log(soma(b, c));*/
+console.log(soma(b, c));
 
 // exemplo:
 const e = 5;
@@ -153,5 +153,54 @@ const greeting = (name) =>{
 
 greeting();
 
-greeting("Marcus");
+greeting("Marcus");*/
 
+// 8 - valor Default
+const custonGreeting = (name, greet = "Olá") => {
+  return `${greet}, ${name}!`;
+};
+ console.log(custonGreeting("Marcus"));
+
+ console.log(custonGreeting("João", "bom dia"));
+
+ const repeatText = (text, repeat = 2) => {
+  for (let i = 0; i < repeat; i++) {
+    console.log(text);
+  }
+ };
+
+ repeatText("testando");
+
+ repeatText("agora repete 10 vezes", 10);
+
+ // 9 - closure
+ function someFunction() {
+  let txt = "alguma coisa";
+
+  function display() {
+    console.log(txt);
+  }
+  display();
+ }
+ someFunction();
+
+ // 10 - mais sobre closure
+ const multiplicationClosure = (n) => {
+  return (m) => {
+    return n * m;
+  }
+ };
+
+ const c1 = multiplicationClosure(5);
+
+ const c2 = multiplicationClosure(10);
+
+ console.log(c1);
+
+ console.log(c2);
+
+ console.log(c2(5));
+
+ console.log(c2(10));
+
+ 
