@@ -70,7 +70,7 @@ console.log(person.idade);
 console.log(typeof person);*/
 
 // 6 - criando e deletando propriedades
-const car = {
+/*const car = {
     engine: 2.0,
     color: "blue",
     brand: "Vw",
@@ -147,5 +147,82 @@ const fruit = ["pera","uva","maçã","banana"];
 
 for (let i = 0; i < fruit.length; i++) {
     console.log(`lista de frutas: ${fruit[i]}`);
+};
+
+// 11 - push "adiciona final da lista" e pop "remove final da lista"
+const array = ["a", "b", "c"];
+
+console.log(array);
+
+array.push("d");
+
+console.log(array);
+
+//array.pop("a");
+
+//console.log(array);
+
+//array.push("g","h","y","z");
+
+//console.log(array);
+
+// 12 - shift "remove do inicio da lista" e unshift "adiciona ao inicio da lista"
+const letters = ["a", "b", "c"];
+console.log(letters);
+
+letters.unshift("y", "z");
+console.log(letters);
+
+letters.shift();
+console.log(letters);
+
+const list = ["Marcus", "Markelys", "Nikson", "Jean"];
+list.unshift("walace");
+console.log(list);
+
+list.shift();
+console.log(list);*/
+
+// 13 - indexOf e lastIndexOf
+const myElements = ["maçã", "pêra", "uva", "laranja", "limão", "uva"];
+
+console.log(myElements.indexOf("pêra"));
+console.log(myElements.indexOf("limão"));
+
+console.log(myElements[2]);
+console.log(myElements[myElements.indexOf("uva")]);
+
+console.log(myElements.lastIndexOf("uva"));
+
+console.log(myElements.indexOf("acerola"));
+
+console.log(myElements.lastIndexOf("acerola"));
+
+
+
+
+
+
+
+
+
+
+
+
+let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
+console.log(materialEscolar);
+
+function removerCaderno() {
+    const indexCaderno = materialEscolar.indexOf('caderno');
+
+    if (indexCaderno !== -1) {
+        materialEscolar.splice(indexCaderno, 1);
+        console.log('Caderno removido com sucesso!');
+    } else {
+        console.log('Caderno não encontrado na array.');
+    }
 }
+
+removerCaderno();
+console.log(materialEscolar);
 
