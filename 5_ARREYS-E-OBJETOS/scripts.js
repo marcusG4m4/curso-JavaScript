@@ -183,7 +183,7 @@ console.log(list);
 list.shift();
 console.log(list);*/
 
-// 13 - indexOf e lastIndexOf
+/*// 13 - indexOf e lastIndexOf
 const myElements = ["maçã", "pêra", "uva", "laranja", "limão", "uva"];
 
 console.log(myElements.indexOf("pêra"));
@@ -196,20 +196,11 @@ console.log(myElements.lastIndexOf("uva"));
 
 console.log(myElements.indexOf("acerola"));
 
-console.log(myElements.lastIndexOf("acerola"));
+console.log(myElements.lastIndexOf("acerola"));*/
 
+// teste
 
-
-
-
-
-
-
-
-
-
-
-let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
+/*let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
 console.log(materialEscolar);
 
 function removerCaderno() {
@@ -224,5 +215,25 @@ function removerCaderno() {
 }
 
 removerCaderno();
-console.log(materialEscolar);
+console.log(materialEscolar);*/
+
+// 14 - slice
+const testeSlice = ["lapis", "borracha", "caderno", "tesoura", "apontador", "régua", "livros"];
+
+const subArray = testeSlice.slice(1, 4 +1);
+
+console.log(testeSlice);
+
+console.log(subArray);
+
+
+const testeSlice2 = ["a", "b", "c", "d", "e", "f", "g"];
+
+const subArray2 = testeSlice2.slice(1, 5 +1);
+
+console.log(testeSlice2);
+
+console.log(subArray2);
+
+
 
