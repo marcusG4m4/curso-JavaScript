@@ -217,10 +217,10 @@ function removerCaderno() {
 removerCaderno();
 console.log(materialEscolar);*/
 
-// 14 - slice
+/*// 14 - slice
 const testeSlice = ["lapis", "borracha", "caderno", "tesoura", "apontador", "régua", "livros"];
 
-const subArray = testeSlice.slice(1, 4 +1);
+const subArray = testeSlice.slice(1, 4 + 1);
 
 console.log(testeSlice);
 
@@ -229,11 +229,70 @@ console.log(subArray);
 
 const testeSlice2 = ["a", "b", "c", "d", "e", "f", "g"];
 
-const subArray2 = testeSlice2.slice(1, 5 +1);
+const subArray2 = testeSlice2.slice(1, 5 + 1);
 
 console.log(testeSlice2);
 
 console.log(subArray2);
 
+// 15 - forEach
 
+const nums = [1, 2, 3, 4, 5, 6,]
 
+nums.forEach((numero) => {
+    console.log(`o numero é ${numero}`)
+});
+
+const posts = [
+    { titulo: "primeiro post", categoria: "PHP" },
+    { titulo: "segundo post", categoria: "JavaScript" },
+    { titulo: "terceiro post", categoria: "Python" },
+    { titulo: "quarto post", categoria: "C+" },
+];
+
+posts.forEach((post) => {
+    console.log(`Exibindo post: ${post.titulo}, da categoria: ${post.categoria}`);
+});
+
+// 16 - includes
+const brands = ["Fiat", "BMW","VW", "kia"];
+
+console.log(brands.includes("BMW"));
+
+console.log(brands.includes("KIA"));
+if(brands.includes("Mercedes Benz")){
+    console.log("há carros da marca Mercedes Benz");
+    } else{
+        console.log("Não temos ainda em nosso estoque essa marca!")
+    }
+
+// 17 - reverse 
+const reverseTest = [1,2,3,4,5,6,7,8];
+
+reverseTest.reverse();
+
+console.log(reverseTest);*/
+
+// 18 - trim
+const trimTest = " Testando &%@ \n ";
+
+console.log(trimTest);
+
+console.log(trimTest.trim());
+
+console.log(trimTest.length);
+
+console.log(trimTest.trim().length);
+
+// 19 - padStart
+const testePadStart = "1";
+
+const newNumber = testePadStart.padStart(4, "0");
+
+console.log(testePadStart);
+
+console.log(newNumber);
+
+const testePadEnd = newNumber.padEnd(10, "0");
+
+console.log(testePadEnd);
