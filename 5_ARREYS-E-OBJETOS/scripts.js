@@ -271,7 +271,7 @@ const reverseTest = [1,2,3,4,5,6,7,8];
 
 reverseTest.reverse();
 
-console.log(reverseTest);*/
+console.log(reverseTest);
 
 // 18 - trim
 const trimTest = " Testando &%@ \n ";
@@ -282,7 +282,7 @@ console.log(trimTest.trim());
 
 console.log(trimTest.length);
 
-console.log(trimTest.trim().length);
+console.log(trimTest.trim().length);*/
 
 // 19 - padStart
 const testePadStart = "1";
@@ -296,3 +296,12 @@ console.log(newNumber);
 const testePadEnd = newNumber.padEnd(10, "0");
 
 console.log(testePadEnd);
+
+// 20 -  split
+const frase = "o rato roeu a roupa do rei de roma";
+
+const arrayDaFrase = frase.split(" ");
+
+console.log(arrayDaFrase);
+
+
