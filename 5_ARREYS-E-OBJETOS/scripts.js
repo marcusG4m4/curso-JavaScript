@@ -304,4 +304,38 @@ const arrayDaFrase = frase.split(" ");
 
 console.log(arrayDaFrase);
 
+// 21 - join
+
+const fraseDeNovo = arrayDaFrase.join(" ");
+
+console.log(fraseDeNovo);
+
+const itensParaComprar = ["mouse","teclado","monitor"];
+
+const fraseDaCompra = `Precisamos comprar ${itensParaComprar.join(", ")}.`;
+
+console.log(fraseDaCompra);
+
+// 22 - Repeat
+const palavra = "testando ";
+
+console.log(palavra.repeat(10));
+
+// 23 - rest Operator 
+
+const somaInfinta = (...args) => {
+    let total = 0;
+
+    for (let i = 0; i < args.length; i++) {
+        total += args[i];
+    }
+
+    return total;
+};
+
+console.log(somaInfinta(1, 2, 3, 4, 5));
+
+console.log(somaInfinta(1, 5, 6, 10));
+
+console.log(somaInfinta(5, 5, 5, 5, 5, 5))
 
