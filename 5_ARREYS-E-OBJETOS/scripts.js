@@ -1,4 +1,4 @@
-/*// 1 - Arrays
+// 1 - Arrays
 const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 console.log(lista);
@@ -67,10 +67,10 @@ console.log(person.nomelength);
 
 console.log(person.idade);
 
-console.log(typeof person);*/
+console.log(typeof person);
 
 // 6 - criando e deletando propriedades
-/*const car = {
+const car = {
     engine: 2.0,
     color: "blue",
     brand: "Vw",
@@ -181,9 +181,9 @@ list.unshift("walace");
 console.log(list);
 
 list.shift();
-console.log(list);*/
+console.log(list);
 
-/*// 13 - indexOf e lastIndexOf
+// 13 - indexOf e lastIndexOf
 const myElements = ["maçã", "pêra", "uva", "laranja", "limão", "uva"];
 
 console.log(myElements.indexOf("pêra"));
@@ -196,11 +196,11 @@ console.log(myElements.lastIndexOf("uva"));
 
 console.log(myElements.indexOf("acerola"));
 
-console.log(myElements.lastIndexOf("acerola"));*/
+console.log(myElements.lastIndexOf("acerola"));
 
 // teste
 
-/*let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
+let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
 console.log(materialEscolar);
 
 function removerCaderno() {
@@ -215,9 +215,9 @@ function removerCaderno() {
 }
 
 removerCaderno();
-console.log(materialEscolar);*/
+console.log(materialEscolar);
 
-/*// 14 - slice
+// 14 - slice
 const testeSlice = ["lapis", "borracha", "caderno", "tesoura", "apontador", "régua", "livros"];
 
 const subArray = testeSlice.slice(1, 4 + 1);
@@ -337,7 +337,7 @@ console.log(somaInfinta(1, 2, 3, 4, 5));
 
 console.log(somaInfinta(1, 5, 6, 10));
 
-console.log(somaInfinta(5, 5, 5, 5, 5, 5))*/
+console.log(somaInfinta(5, 5, 5, 5, 5, 5))
 
 // 24 - destructuring em objetos
 const userDetails = {
