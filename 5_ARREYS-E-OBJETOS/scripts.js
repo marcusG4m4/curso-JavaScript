@@ -365,3 +365,35 @@ const myList = ["carro","motocicleta","avião"];
 const [veiculoA, veiculoB,veiculoC] = myList;
 
 console.log(veiculoA,veiculoB,veiculoC);
+
+// 27 - JSON
+const myJson = 
+'{"name":"Mateus", "age": 31, "skills": ["PHP","JavaScript", "Phyton"]}';
+
+console.log(myJson);
+
+console.log(typeof myJson);
+
+// 28 - Json para Objeto e Objeto para Jason
+const myObject = JSON.parse(myJson);
+
+console.log(myObject);
+
+console.log(myObject.name);
+
+console.log(typeof myObject);
+
+//Json invalido 
+//const badJson = '{"name": Marcus, "age": 42}';
+
+// const myBadObject = JSON.parse(badJson);
+
+myObject.isOpenToWork = true;
+
+console.log(myObject);
+
+const myNewJson = JSON.stringify(myObject)
+
+console.log(myNewJson);
+
+console.log(typeof myNewJson);
