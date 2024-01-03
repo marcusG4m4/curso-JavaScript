@@ -282,7 +282,7 @@ console.log(trimTest.trim());
 
 console.log(trimTest.length);
 
-console.log(trimTest.trim().length);*/
+console.log(trimTest.trim().length);
 
 // 19 - padStart
 const testePadStart = "1";
@@ -337,5 +337,31 @@ console.log(somaInfinta(1, 2, 3, 4, 5));
 
 console.log(somaInfinta(1, 5, 6, 10));
 
-console.log(somaInfinta(5, 5, 5, 5, 5, 5))
+console.log(somaInfinta(5, 5, 5, 5, 5, 5))*/
 
+// 24 - destructuring em objetos
+const userDetails = {
+ firstName:"Marcus",
+ lastName:"José",
+ job:"Programador",
+ age: 42,
+};
+const {firstName, lastName, job, age} = userDetails;
+
+ console.log(firstName, lastName, job, age);
+
+// renomear variaveis 
+const {firstName: primeiroNome} = userDetails;
+
+console.log(firstName);
+
+const {age:idade} = userDetails;
+
+console.log(age);
+
+// 26 - destructuring em array
+const myList = ["carro","motocicleta","avião"];
+
+const [veiculoA, veiculoB,veiculoC] = myList;
+
+console.log(veiculoA,veiculoB,veiculoC);
