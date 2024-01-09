@@ -198,25 +198,6 @@ console.log(myElements.indexOf("acerola"));
 
 console.log(myElements.lastIndexOf("acerola"));
 
-// teste
-
-let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
-console.log(materialEscolar);
-
-function removerCaderno() {
-    const indexCaderno = materialEscolar.indexOf('caderno');
-
-    if (indexCaderno !== -1) {
-        materialEscolar.splice(indexCaderno, 1);
-        console.log('Caderno removido com sucesso!');
-    } else {
-        console.log('Caderno não encontrado na array.');
-    }
-}
-
-removerCaderno();
-console.log(materialEscolar);
-
 // 14 - slice
 const testeSlice = ["lapis", "borracha", "caderno", "tesoura", "apontador", "régua", "livros"];
 
@@ -397,3 +378,21 @@ const myNewJson = JSON.stringify(myObject)
 console.log(myNewJson);
 
 console.log(typeof myNewJson);
+
+//exemplo
+let materialEscolar = ["tesoura", "lápis", "caderno", "borracha", "caneta"];
+console.log(materialEscolar);
+
+function removerCaderno() {
+    const indexCaderno = materialEscolar.indexOf('caderno');
+
+    if (indexCaderno !== -1) {
+        materialEscolar.splice(indexCaderno, 1);
+        console.log('Caderno removido com sucesso!');
+    } else {
+        console.log('Caderno não encontrado na array.');
+    }
+}
+
+removerCaderno();
+console.log(materialEscolar);
