@@ -74,9 +74,5 @@ com a palavra reservada this;
 
    //exemplo de métodos
 
-   const texto = "algum texto";
-
-   console.log(texto.toLowerCase());
-   console.log(texto.toUpperCase());
-   
+ 
    
