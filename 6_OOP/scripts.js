@@ -74,5 +74,8 @@ com a palavra reservada this;
 
    //exemplo de métodos
 
+let nome = "nikson";
+console.log(nome)
+
  
    
